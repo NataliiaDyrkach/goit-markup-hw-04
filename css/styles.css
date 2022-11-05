@@ -220,6 +220,10 @@ a {
 }
 
 /* < !-- СЕКЦІЯ3 ФОТО --> */
+.photo-section {
+  border-top: 0;
+}
+
 .photo-list {
   display: flex;
 }
