@@ -190,10 +190,16 @@ a {
 
 .features-icons {
   width: 270px;
-  height: 120;
+  height: 120px;
   margin-bottom: 30px;
   background-color: var(--background-color);
   border-radius: 4px;
+}
+
+.icon-feature {
+  width: 70px;
+  height: 70px;
+  margin: 25px 100px;
 }
 
 .features-list {
@@ -445,6 +451,7 @@ button {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
+  border: 1px solid #eeeeee;
 }
 
 .work-list .project:nth-child(3n) {
